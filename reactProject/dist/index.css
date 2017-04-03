@@ -1,0 +1,31 @@
+input[type="text"] ~ div,
+input[type="text"]{
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Microsoft Yahei";
+}
+
+input[type="text"]{
+  background: #000;
+  color: white;
+  border: none;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+hr{
+  width: 300px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+input[type="text"] ~ div{
+  height: 100px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  overflow: auto;
+/*  white-space: pre-wrap;*/
+}
